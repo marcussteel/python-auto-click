@@ -1,0 +1,72 @@
+<div id="support-include">
+    <h3 id="version-info"></h3>
+    <span id="version-info-sub-header"></span><br/>
+    <span id="support-extension-version" class="content-important">
+        <span class="ui tiny inline loader active"></span>
+    </span>
+    <div id="update-button-wrapper">
+        <button id="update-button" class="ui button">
+            <i id="update-button-icon" class="spinner loading icon hidden"></i>
+            <p id="check-for-updates"></p>
+        </button>
+    </div>
+    <div id="update-error" class="hidden">
+        <span id="support-error-line-1"></span><br />
+        <span id="support-error-line-2"></span>
+    </div>
+    <div id="update-spacer"></div><!-- Spacer -->
+
+    <img id="support-shizzel" src="assets/shizzel.webp" alt="Malwarebytes mascot robot - zero">
+    <h3 class="title-support-resources" id="support-resources-title"></h3>
+    <div class="ui grid support-resources-grid">
+        <div class="six wide column">
+            <a id="mb-link" target="_blank" href="https://www.malwarebytes.com/?guard=1&x-source=company"></a>
+            <span id="mb-link-explain"></span>
+        </div>
+        <div class="ten wide column">
+            <a target="_blank" id="pug-link" href="https://links.malwarebytes.com/support/browserguard_guide?guard=1&x-source=userguide"></a>
+            <span id="user-guide-explain"></span>
+        </div>
+        <div class="six wide column">
+            <a target="_blank" href="https://links.malwarebytes.com/support/browserguard/?guard=1&x-source=support" id="support-resources-mb"></a>
+            <span id="support-link-explain"></span>
+        </div>
+        <div class="ten wide column">
+            <a id="mb-labs-link" target="_blank" href="https://blog.malwarebytes.com/?guard=1&x-source=labs"></a>
+            <span id="mb-labs-link-explain"></span>
+        </div>
+    </div>
+    <div class="checkbox-container">
+        <div class="ui">
+            <button type="button" id="dl-debug-logs" class="ui btn-link"></button>
+            <button type="button" id="factory-reset" class="ui btn-link">Factory reset</button>
+            <div id="confirm-factory-reset" class="ui popup top right transition hidden">
+                <span id="factory-reset-message"></span>
+                <button type="button" id="reset-yes" class="ui btn-link"></button>
+                <button type="button" id="reset-no" class="ui btn-link"></button>
+            </div>
+        </div>
+        <div class="ui checkbox">
+            <input type="checkbox" name="telemetry-consent" id="telemetry-consent" />
+            <label
+                for="telemetry-consent"
+                id="telemetry-consent-label"
+                data-content=""
+            >
+                <span id="telem-label-text"></span>
+                <span class="ui tiny inline loader active" />
+            </label>
+        </div>
+    </div>
+
+    <div class="support-footer">
+        <span class="support-copyright">
+            <span class="support-copyright-icon">&copy;&nbsp;</span>
+            <span id="mb-copyright-text"></span>
+        </span>
+        <div class="support-legal-links">
+            <a id="license-link" target="_blank" href="https://www.malwarebytes.com/eula/?guard=1&x-source=eula" class="support-legal-links-eula"></a>
+            <a id="privacy-link" target="_blank" href="https://www.malwarebytes.com/privacy/policy-for-browser-guard/?guard=1&x-source=policy" class="support-legal-links-privacy-policy"></a>
+        </div>
+    </div>
+</div>

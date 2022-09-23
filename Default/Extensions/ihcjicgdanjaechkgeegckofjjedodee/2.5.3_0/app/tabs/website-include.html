@@ -1,0 +1,67 @@
+
+<div id="website-include">
+    <div class="ui left internal attached rail">
+        <div class="invalid-data" style="display: none">
+            <img src="assets/shield-check.webp" class="invalid-data-shield" />
+            <div class="invalid-data-warning invalid-data-blocked hidden">
+                <strong><span id="cr-warning"></span>: </strong><span id="cr-warning-text"></span>
+            </div>
+            <div class="invalid-data-warning invalid-data-system hidden" id="system-page-text">
+            </div>
+        </div>
+        <div class="valid-data">
+            <div class="ui middle aligned list">
+                <h4 class="web-tab-rail-title" id="cr-protection-header"></h4>
+                <div class="item">
+                    <label for="toggle-ads">Ads/Trackers</label>
+                    <div class="ui fitted toggle checkbox">
+                        <label><!-- Required, for switch to render --></label>
+                        <input type="checkbox" name="toggle-ad" id="toggle-ads" />
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="toggle-malware">Malware</label>
+                    <div class="ui fitted toggle checkbox">
+                        <label><!-- Required, for switch to render --></label>
+                        <input type="checkbox" name="toggle-malware" id="toggle-malware" />
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="toggle-scams">Scams</label>
+                    <div class="ui fitted toggle checkbox">
+                        <label><!-- Required, for switch to render --></label>
+                        <input type="checkbox" name="toggle-scams" id="toggle-scams" />
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="toggle-pups">PUPs</label>
+                    <div class="ui fitted toggle checkbox">
+                        <label><!-- Required, for switch to render --></label>
+                        <input type="checkbox" name="toggle-pups" id="toggle-pups" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-with-rail">
+        <h3 class="ui inline loader active website-name" id="cr-loading-header"></h3>
+        <div class="valid-data">
+            <img src="assets/graph.svg" class="container-stats-no-chart active" id="container-stats-no-chart-blue" />
+            <span class="container-stats-summary"><span id="cr-total"></span><br/><span class="container-stats-summary-count"></span></span>
+            <img src="assets/checkmark.svg" class="container-stats-no-chart active" id="container-stats-no-chart-green" />
+            <img src="assets/pause.svg" class="active" id="container-stats-pause" />
+            <h3 class="mb-adnet-tab">
+                <span id="block-type-l1"></span> <br />
+                <span id="block-type-l2"></span>
+            </h3>
+            <div id="blocked-list" class="ui divided list ad-list" data-tab="Ad">
+                <!--<span class="ui empty">Nothing to block.</span>-->
+                <!-- dynamic -->
+            </div>
+        </div>
+        <div class="invalid-data">
+            <img src="assets/invalid.svg" class="invalid-data-icon" />
+            <span id="cr-cannot"></span>
+        </div>
+    </div>
+</div>

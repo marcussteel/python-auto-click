@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'graphik-web';
+    src: url('../../vendor/graphik/web/graphik-bold-web.eot');
+    src: url('../../vendor/graphik/web/graphik-bold-web.eot?#iefix') format('embedded-opentype'),
+    url('../../vendor/graphik/web/graphik-bold-web.woff2') format('woff2'),
+    url('../../vendor/graphik/web/graphik-bold-web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'graphik-web';
+    src: url('../../vendor/graphik/web/graphik-lightitalic-web.eot');
+    src: url('../../vendor/graphik/web/graphik-lightitalic-web.eot?#iefix') format('embedded-opentype'),
+    url('../../vendor/graphik/web/graphik-lightitalic-web.woff2') format('woff2'),
+    url('../../vendor/graphik/web/graphik-lightitalic-web.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'graphik-web';
+    src: url('../../vendor/graphik/web/graphik-regular-web.eot');
+    src: url('../../vendor/graphik/web/graphik-regular-web.eot?#iefix') format('embedded-opentype'),
+    url('../../vendor/graphik/web/graphik-regular-web.woff2') format('woff2'),
+    url('../../vendor/graphik/web/graphik-regular-web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'graphik-web';
+    src: url('../../vendor/graphik/web/graphik-bolditalic-web.eot');
+    src: url('../../vendor/graphik/web/graphik-bolditalic-web.eot?#iefix') format('embedded-opentype'),
+    url('../../vendor/graphik/web/graphik-bolditalic-web.woff2') format('woff2'),
+    url('../../vendor/graphik/web/graphik-bolditalic-web.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'graphik-web';
+    src: url('../../vendor/graphik/web/graphik-medium-web.eot');
+    src: url('../../vendor/graphik/web/graphik-medium-web.eot?#iefix') format('embedded-opentype'),
+    url('../../vendor/graphik/web/graphik-medium-web.woff2') format('woff2'),
+    url('../../vendor/graphik/web/graphik-medium-web.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 { font-family: 'graphik-web', sans-serif; }
+a { color: #0d3ecc; }
+
+#welcome-container {
+    position: relative;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+#welcome-container h1 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 31px;
+}
+
+#welcome-container ol {
+    font-size: 18px;
+    list-style: none;
+    counter-reset: mbw-counter;
+    margin-block-start: 0;
+    padding-inline-start: 3px;
+}
+
+#welcome-container ol li {
+    counter-increment: mbw-counter;
+    margin-bottom: 45px;
+}
+
+#welcome-container ol li.with-img { margin-bottom: 22px; }
+
+#welcome-container ol li:before {
+    content: counter(mbw-counter) ". ";
+    font-weight: bold;
+    font-family: 'graphik-web', sans-serif;
+    padding-right: 5px
+}
+
+#mbw-content { margin: 33px auto; padding: 33px 37px; width: 960px; }
+#mbw-logo { width: 420px; font-family: 'graphik-web', sans-serif; display: block; margin-bottom: 10px; }
+#mbw-title { font-weight: normal; }
+#mbw-addbar, #mbw-addbar2 { margin-top: 22px; margin-bottom: 0; }
+#mbw-instruction { font-size: 18px; padding-top: 18px; }

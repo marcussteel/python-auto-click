@@ -1,0 +1,7 @@
+2022/09/18-12:56:30.923 d24 Reusing MANIFEST C:\Users\musta\Desktop\click\Default\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/18-12:56:30.936 d24 Recovering log #3
+2022/09/18-12:56:30.937 d24 Reusing old log C:\Users\musta\Desktop\click\Default\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/000003.log 
+2022/09/18-12:56:45.991 1a8 Level-0 table #5: started
+2022/09/18-12:56:45.998 1a8 Level-0 table #5: 1203 bytes OK
+2022/09/18-12:56:46.001 1a8 Delete type=0 #3
+2022/09/18-12:56:46.002 1a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

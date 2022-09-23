@@ -1,0 +1,19 @@
+#malwarebytes-app {
+    background-image: url("../assets/email-sky-dark-mode.svg") !important;
+}
+
+body {
+    color: #FFFFFF !important;
+}
+
+h3, h1, label, .txt {
+    color: #FFFFFF !important;
+}
+
+#email-go {
+    background-color: #7094ff !important;
+}
+
+#email-pp {
+    color: #7094ff !important;
+}

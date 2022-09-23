@@ -1,0 +1,274 @@
+body {
+    color: #FFFFFF;
+}
+
+body.mb-landscape {
+    background-image: url("assets/bg-landscape-dark.webp");
+}
+
+#malwarebytes-app {
+    background-color: #3c3c3c;
+}
+
+#malwarebytes-app .ui.toggle.checkbox input:checked ~ .box:before,
+#malwarebytes-app .ui.toggle.checkbox input:checked ~ label:before {
+    background-color: #7094ff !important;
+}
+
+.ui.menu .dropdown.item .menu {
+    background-color: #4d4d4d;
+    border-color: #d7d8df;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+}
+
+.ui.menu .dropdown.item .menu > .item {
+    color: #FFFFFF !important;
+}
+
+.ui.menu .dropdown.item .menu > .item:hover {
+    background: #d7d8df !important;
+}
+
+.ui.input, .ui.input > .ui.button > i {
+    color: #FFFFFF;
+}
+
+.ui.input>input, .ui.input>input:focus {
+    background-color: #282828;
+    border-color: #d7d8df;
+    color: #FFFFFF;
+}
+
+.ui.input>input::selection {
+    background-color: rgba(100,100,100,.4);
+    color: #FFFFFF;
+}
+
+.ui.input > .ui.button {
+    background-color: #979797;
+}
+
+.ui.selection.dropdown, .ui.selection.dropdown:hover {
+    background-color: #282828;
+    border-color: #d7d8df;
+    color: #FFFFFF;
+}
+
+.ui.dropdown .menu>.item {
+    color: #FFFFFF;
+    background-color: #4d4d4d;
+}
+
+.ui.selection.dropdown .menu>.item {
+    border-top-color: #d7d8df;
+}
+
+.allow-table table.ui.table {
+    background-color: #282828;
+    color: #FFFFFF;
+    border-color: #d7d8df;
+    border-top: 1px solid #ffffff;
+}
+
+.allow-table table.ui.table thead th,
+.allow-table table.ui.table thead tr:first-child>th {
+    color: #FFFFFF;
+}
+
+.ui.table thead th {
+    background-color: #3c3c3c;
+    color: #FFFFFF;
+}
+
+.allow-table table.ui.table tbody td {
+    color: #FFFFFF;
+}
+
+.allow-table table.ui.table tbody tr:hover td {
+    color: #141519;
+}
+
+.header-container {
+    background-color: #222222;
+    border-bottom-color: #3c3c3c;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.header-container-product h4.title-browser-guard {
+    color: #FFFFFF;
+}
+
+.header-container-tabs {
+    background-color: #979797;
+}
+
+.header-container .ui.secondary.pointing.menu {
+    border-bottom: 1px solid #676666;
+}
+
+.ui.tabular.menu {
+    background-color: #2d2d2d;
+}
+
+.menu.header-container-tabs .icon.item > i {
+    color: #FFFFFF;
+}
+
+.mb-default-tab i.icon {
+    color: #7094ff;
+}
+
+.ui.secondary.pointing.menu .item {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.mb-default-tab span { font-weight: normal; }
+
+.mb-default-tab.active span { font-weight: 500; }
+
+.ui.secondary.pointing.menu .item:hover,
+.ui.secondary.pointing.menu .item.active {
+    color: #FFFFFF;
+}
+
+.ui.secondary.pointing.menu .item.mb-cog.active i.cog.icon {
+    color: #7094ff !important;
+}
+
+.ui.secondary.pointing.menu .item.mb-cog:hover i.cog.icon,
+.ui.secondary.pointing.menu .item.mb-ellipsis:hover {
+    color: #7094ff !important;
+}
+
+.ui.secondary.pointing.menu.header-container-tabs a.active.item,
+.ui.secondary.pointing.menu.header-container-tabs .ui.dropdown .menu > a.active.item {
+    border-color: #7094ff;
+}
+
+.ui.secondary.pointing.menu.header-container-tabs a.item:hover {
+    color: #FFFFFF !important;
+}
+
+/* ALL SETTINGS TAB STYLES */
+#settings-include .settings-summary,
+#settings-include .settings-list h3, #settings-include .message-card h3,
+#settings-include .settings-list .description {
+    color: #FFFFFF;
+}
+
+#message-card-nm > div > div > div.text-container > h3 {
+    color: #141519;
+}
+
+.ui.divided.list>.item {
+    border-top: 1px solid #e0e0e0;
+}
+
+/* ALL ALLOW TAB STYLE */
+.allow-summary, #allow-include label {
+    color: #FFFFFF;
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+    background-color: #707070;
+}
+
+/* SUPPORT TAB STYLES */
+#support-include, #support-include h3, #support-extension-version {
+    color: #FFFFFF;
+}
+
+#update-button.blue-bg {
+    background-color: #7094ff;
+    color: #FFFFFF;
+}
+
+.content-container .support-footer {
+    color: #FFFFFF;
+}
+
+.content-container a {
+    color: #7094ff;
+}
+
+.content-container h3 {
+    color: #FFFFFF;
+}
+
+.ui.btn-link {
+    color: #7094ff;
+}
+
+.ui.checkbox label, .ui.checkbox+label {
+    color: #FFFFFF;
+}
+
+#website-include .container-stats-summary,
+#website-include h3.mb-adnet-tab,
+#website-include .container-stats-summary-count,
+#website-include .ad-list .item {
+    color: #FFFFFF;
+}
+
+.ui.label {
+    background-color: #4d4d4d;
+    color: #FFFFFF;
+}
+
+.content-container .ui.attached.left.rail {
+    background: transparent;
+}
+
+h4.web-tab-rail-title {
+    color: #FFFFFF;
+}
+
+.content-container .ui.attached.left.rail .ui.list>.item {
+    color: #FFFFFF;
+}
+
+#statistics-include .stats-chart-icon {
+    filter: invert(53%) sepia(46%) saturate(2970%) hue-rotate(206deg) brightness(106%) contrast(106%);
+}
+
+.ui.card, .ui.cards>.card {
+    background-color: #3c3c3c;
+    border-color: #222222;
+}
+
+#statistics-include .stats-filters.ui.grid>.card.active {
+    background-color: #3c3c3c;
+}
+
+#statistics-include .stats-filters.ui.grid>.card.column .ui.statistic>.value,
+#statistics-include .stats-filters.ui.grid>.card.column .ui.statistic>.label {
+    color: #FFFFFF;
+}
+
+#statistics-include .stats-filters.ui.grid>.card.column>img,
+#statistics-include .stats-filters.ui.grid>.card.active img {
+    filter: invert(53%) sepia(46%) saturate(2970%) hue-rotate(206deg) brightness(106%) contrast(106%);
+}
+
+#statistics-include div.ui.cards.grid.stats-filters {
+    box-shadow: none;
+}
+
+.ui.raised.card, .ui.raised.cards>.card {
+     box-shadow: 0 0 0 1px #222222, 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+
+.ui.raised.card.active, .ui.raised.cards>.card.active {
+    box-shadow: 0 0 0 1px #7094ff, 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+
+.ui.card, .ui.cards>.card {
+     box-shadow: 0 1px 3px 0 #222222,0 0 0 1px #222222;
+     transition: box-shadow .1s ease,transform .1s ease;
+}
+
+ div.ui.dropdown.icon.item.header-container-tabs-more.mb-ellipsis.active.visible > div > a.item.selected {
+    background-color: #d7d8df !important;
+    font-weight: bold !important;
+}

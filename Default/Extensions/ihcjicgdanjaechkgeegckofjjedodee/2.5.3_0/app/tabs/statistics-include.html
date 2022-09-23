@@ -1,0 +1,70 @@
+<div id="statistics-include">
+
+    <div class="ui dropdown stats-chart-range-filter">
+        <div class="text" id="stats-this-week"></div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <!-- Values are [totalDays, daysPerColumn] -->
+            <div id="stats-today" class="item" data-value="1, 1"></div><!-- 1-day steps -->
+            <div id="stats-this-week-2" class="item" data-value="7, 1"></div><!-- 1-day steps --><!-- This is what is meant by daily -->
+            <div id="stats-two-weeks" class="item" data-value="14, 7"></div><!-- 1-week steps -->
+            <div id="stats-30-days" class="item" data-value="30, 4"></div><!-- 3-day steps -->
+        </div>
+    </div>
+
+    <canvas id="stats-chart" class="stats-chart"></canvas>
+    <img src="assets/ads.svg" alt="Blocked items icon" class="stats-chart-icon" />
+    <h3 id="stats-chart-title"></h3>
+    <div class="ui cards grid stats-filters">
+
+        <div class="ui raised card four wide column active" data-line="0" data-chartlabel="Ads / Trackers" data-icon="ads">
+            <img src="assets/ads.svg" alt="Ads icon" class="ui left floated" />
+            <div class="ui statistic stats-ads">
+                <img class="premium-lock" src="assets/lock.svg" alt="Locked for premium icon" />
+                <div class="value ui large loader active">
+
+                </div>
+                <div class="label">
+                    Ads / Trackers
+                </div>
+            </div>
+        </div>
+
+        <div class="ui raised card four wide column" data-line="1" data-chartlabel="Malware" data-icon="malware">
+            <img src="assets/malware.svg" alt="Malware icon" class="ui left floated" />
+            <div class="ui statistic stats-malware">
+                <img class="premium-lock" src="assets/lock.svg" alt="Locked for premium icon" />
+                <div class="value ui large loader active">
+
+                </div>
+                <div class="label">
+                    Malware
+                </div>
+            </div>
+        </div>
+        <div class="ui raised card four wide column" data-line="2" data-chartlabel="Scams" data-icon="scams">
+            <img src="assets/scams.svg" alt="Scams icon" class="ui left floated" />
+            <div class="ui statistic stats-scams">
+                <img class="premium-lock" src="assets/lock.svg" alt="Locked for premium icon" />
+                <div class="value ui large loader active">
+
+                </div>
+                <div class="label">
+                    Scams
+                </div>
+            </div>
+        </div>
+        <div class="ui raised card four wide column" data-line="3" data-chartlabel="PUPs" data-icon="pup">
+            <img src="assets/pup.svg" alt="PUPs icon" class="ui left floated" />
+            <div class="ui statistic stats-pups">
+                <img class="premium-lock" src="assets/lock.svg" alt="Locked for premium icon" />
+                <div class="value ui large loader active">
+
+                </div>
+                <div class="label">
+                    PUPs
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

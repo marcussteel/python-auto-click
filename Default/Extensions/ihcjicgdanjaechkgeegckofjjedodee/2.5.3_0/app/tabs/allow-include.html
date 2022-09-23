@@ -1,0 +1,70 @@
+<div id="allow-include">
+    <div class="allow-summary" id="allow-summary"></div>
+    <div class="ui allow-control-row">
+        <label for="allow-control-url" class="allow-control-url-wrapper" id="allow-control-urlz"></label>
+        <label for="allow-control-protections" id="allow-control-disable"></label>
+        <div class="ui action input allow-control-url-wrapper">
+            <input type="text" placeholder="website.com or 123.45.67.89"
+                   name="allow-control-url" id="allow-control-url" />
+            <button class="ui icon button allow-control-url-btn">
+                <!--<i class="globe icon"></i>-->
+                <i class="window maximize outline icon"></i>
+                <!--<i class="sign-in alternate icon"></i>-->
+            </button>
+        </div>
+        <div class="protection-dd-wrapper">
+            <div class="ui multiple selection dropdown" id="allow-control-protections">
+                <input id="allow-control-protections-input" type="hidden" name="allow-control-protections">
+                <i class="dropdown icon"></i>
+                <div class="default text"></div>
+                <div class="menu">
+                    <!-- We cannot execute inline data to populate the data-value from the js consts -->
+                    <!-- <div class="item" id="allow-control-protections-fake-news" data-value="Fake-news">Fake news</div>-->
+                    <div class="item" id="allow-control-protections-ads" data-value="Ads">Ads / Trackers</div>
+                    <!-- <div class="item" id="allow-control-protections-trackers" data-value="Trackers">Trackers</div>-->
+                    <div class="item" id="allow-control-protections-malware" data-value="Malware">Malware</div>
+                    <div class="item" id="allow-control-protections-scams" data-value="Scams">Scams</div>
+                    <div class="item" id="allow-control-protections-pups" data-value="PUPs">PUPs</div>
+                    <!-- <div class="item" id="allow-control-protections-clickbait" data-value="Clickbait">Clickbait</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="allow-table">
+        <label id="allow-list-table-header"></label>
+        <div class="ui transparent left icon input">
+            <i class="search icon"></i>
+            <input type="text" placeholder="" name="allow-table-search" id="allow-table-search" />
+        </div>
+        <!-- Table MUST be unstackable due to size of our panel causing it to render like it is on mobile -->
+        <table class="ui compact unstackable table">
+            <thead>
+                <tr>
+                    <th class="six wide column" id="allow-url"></th>
+                    <th class="nine wide column" id="allow-types"></th>
+                    <th class="one wide column">
+                        <div class="ui right aligned dropdown icon allow-table-more">
+                            <i class="ellipsis vertical icon"></i>
+                            <div class="menu">
+                                <a id="allow-table-menu-remove-all" class="item"></a>
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot id="empty-list-footer">
+                <tr>
+                    <td colspan="3" id="allow-list-empty"></td>
+                </tr>
+            </tfoot>
+            <tfoot id="empty-search-footer" class="hidden">
+                <tr>
+                    <td colspan="3" id="allow-list-no-results"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <button id="allow-done" class="ui right floated blue button disabled allow-done" disabled />
+</div>

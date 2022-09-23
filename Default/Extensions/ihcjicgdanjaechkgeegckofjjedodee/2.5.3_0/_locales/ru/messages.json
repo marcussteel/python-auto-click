@@ -1,0 +1,798 @@
+{
+   "allowColumnAllowList": {
+      "description": "Column Header for Allow list of Allowed detection types",
+      "message": "Разрешить"
+   },
+   "allowListCompletionButton": {
+      "description": "Button text for allow list additions",
+      "message": "Готово"
+   },
+   "allowListControl": {
+      "description": "Label for allow list control",
+      "message": "Добавить URL-адрес или IP-адрес"
+   },
+   "allowListDisable": {
+      "description": "Label for to disable allow list item",
+      "message": "Отключить защиту"
+   },
+   "allowListEmpty": {
+      "description": "Text displayed when there are no items in the allow list",
+      "message": "Разрешенные веб-сайты будут отображаться здесь."
+   },
+   "allowListNavItem": {
+      "description": "'Allow list' Navigation Item",
+      "message": "Список разрешений"
+   },
+   "allowListNoResults": {
+      "description": "Text displayed when the user searches for an allowed URL and there are no results",
+      "message": "Поиск не дал результатов."
+   },
+   "allowListRemoveOption": {
+      "description": "Allow list option text to remove all allow list items",
+      "message": "Удалить все"
+   },
+   "allowListSearchPlaceholder": {
+      "description": "Placeholder text to do a search for an allow list item",
+      "message": "Поиск по разрешенным веб-сайтам"
+   },
+   "allowListSummary": {
+      "description": "Summary details on how to operate the allow list page",
+      "message": "Чтобы настроить параметры защиты для веб-сайта, пожалуйста, введите его URL-адрес или IP-адрес, а затем выберите уровни защиты, которые Вы хотите отключить."
+   },
+   "allowListSummarySafari": {
+      "description": "Summary details on how to operate the allow list page",
+      "message": "Чтобы настроить параметры защиты для веб-сайта, пожалуйста, введите его URL-адрес или IP-адрес, а затем выберите уровни защиты, которые Вы хотите отключить."
+   },
+   "allowListTableHeader": {
+      "description": "Header for Allow list table",
+      "message": "Разрешенные веб-сайты"
+   },
+   "allowSite": {
+      "description": "Text to turn on/off protection for site",
+      "message": "Разрешить веб-сайт"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Непревзойденная безопасность работы в Интернете и самая быстрая навигация по веб-сайтам."
+   },
+   "blockContinueButton": {
+      "description": "Button text to continue to site",
+      "message": "ПЕРЕЙТИ НА САЙТ"
+   },
+   "blockExplainAdware": {
+      "description": "Text explaining what Adware is",
+      "message": "Рекламное ПО – это вредоносное ПО, которое отображает на Вашем компьютере нежелательную рекламу."
+   },
+   "blockExplainCompromised": {
+      "description": "Text explaining what a compromised site is",
+      "message": "Скомпрометированные веб-сайты (или серверы) представляют собой законные веб-сайты, используемые хакерами без ведома владельца. Скомпрометированные веб-сайты часто используются для хранения и распространения вредоносного ПО."
+   },
+   "blockExplainDefault": {
+      "description": "Text explaining a default block that has no specifics as above",
+      "message": "К возможной подозрительной активности относятся различные паттерны поведения приложений, которые обычно связаны с атаками злоумышленников, выдающих себя за представителей технической поддержки, а также с криптоджекингом, угонщиками браузера и другими типами вредоносных, опасных или потенциально нежелательных объектов."
+   },
+   "blockExplainExploit": {
+      "description": "Text explaining what an exploit is",
+      "message": "Эксплойты – это вредоносное ПО, которое использует ошибки и уязвимости в системе, чтобы передать своим авторам контроль над ней."
+   },
+   "blockExplainFradulent": {
+      "description": "Text explaining what a fradulent site is",
+      "message": "Мошеннические веб-сайты маскируются под законные ресурсы, например под веб-сайты технической поддержки, сайты знакомств или онлайн-магазины, предлагающие законные продукты или «выгодные» сделки, однако в действительности они используют разнообразные мошеннические схемы, пытаясь похитить Ваши личные данные или реквизиты кредитных карт."
+   },
+   "blockExplainHijack": {
+      "description": "Text explaining what a hijacker is",
+      "message": "Угонщик браузера – это вредоносное ПО, которое модифицирует настройки интернет-браузера без разрешения пользователя. Обычно это делается с целью внедрить в браузер нежелательную рекламу или перенаправить пользователя на мошеннические веб-сайты."
+   },
+   "blockExplainMalvertising": {
+      "description": "Text explaining what malvertising is",
+      "message": "Вредоносная реклама – это реклама в сети Интернет, направленная на распространение вредоносного ПО при минимальном взаимодействии с пользователем или вообще без каких-либо действий с его стороны."
+   },
+   "blockExplainMalware": {
+      "description": "Text explaining what malvertising is",
+      "message": "Вредоносное программное обеспечение (или вредоносное ПО) – это собирательный термин, обозначающий вредоносную программу или код, которые могут нанести ущерб компьютерной системе."
+   },
+   "blockExplainPUP": {
+      "description": "Text explaining what a PUP is",
+      "message": "Потенциально нежелательные программы – это программы, которые могут содержать рекламу, панели инструментов и всплывающие окна, никак не связанные с загружаемыми приложениями. Потенциально нежелательные программы часто проникают на компьютер вместе с другими приложениями, которые устанавливает пользователь."
+   },
+   "blockExplainPharma": {
+      "description": "Text explaining what illegal pharma sites are",
+      "message": "«Фарма» – это первая часть сложных слов, обозначающая связь с лекарственными средствами. В сфере кибербезопасности англоязычный термин «pharma» обозначает спам или веб-сайты, рекламирующие поддельные или незаконные лекарственные средства. Такие веб-сайты могут также продавать и законные медикаменты, однако в нарушение местного законодательства."
+   },
+   "blockExplainPhishing": {
+      "description": "Text explaining what phishing is",
+      "message": "Фишинговые веб-сайты маскируются под законные ресурсы и пытаются получить от пользователя те или иные сведения, выдавая запросы на ввод пароля, реквизитов кредитных карт или другой конфиденциальной информации."
+   },
+   "blockExplainRansomware": {
+      "description": "Text explaining what ransomware is",
+      "message": "Программы-вымогатели – это вредоносное ПО, которое блокирует Ваше устройство и/или шифрует Ваши файлы, а затем заставляет Вас заплатить выкуп за их возврат."
+   },
+   "blockExplainReputation": {
+      "description": "Text explaining a reputation block",
+      "message": "Возможно, этот веб-сайт скомпрометирован или представляет потенциальную угрозу для приватности или безопасности пользователя."
+   },
+   "blockExplainRiskware": {
+      "description": "Text explaining riskware",
+      "message": "Потенциально опасные программы – это законные программы, содержащие слабые места в программном коде или другие уязвимости, которые могут быть использованы хакерами в их вредоносной деятельности."
+   },
+   "blockExplainScam": {
+      "description": "Text explaining Scam activity",
+      "message": "К возможной подозрительной активности относятся различные паттерны поведения приложений, которые обычно связаны с атаками злоумышленников, выдающих себя за представителей технической поддержки, а также с криптоджекингом, угонщиками браузера и другими типами вредоносных, опасных или потенциально нежелательных объектов."
+   },
+   "blockExplainSpam": {
+      "description": "Text explaining what Spam is",
+      "message": "Спам – это массовые сообщения нежелательного характера; часто они распространяются по электронной почте или посредством телефонных звонков. Получатели спама вынуждены тратить на него дополнительное время и ресурсы, поэтому многие средства коммуникации оснащены встроенными функциями, позволяющими минимизировать спам."
+   },
+   "blockExplainSpyware": {
+      "description": "Text explaining what Spyware is",
+      "message": "Шпионская программа – это вредоносное ПО, которое собирает информацию на устройстве и отправляет ее третьим лицам или сторонним организациям, обычно не имеющим доступа к этой информации. Ранее данный термин также использовался для обозначения рекламного ПО и файлов cookie."
+   },
+   "blockExplainTrojan": {
+      "description": "Text explaining what a Trojan is",
+      "message": "Троянские программы – это программы, которые заявляют ту или иную функцию, однако в действительности выполняют другую функцию, нередко имеющую вредоносный характер. Троянские программы могут скрываться во вложениях электронных писем, в загрузках, в подложных видеофайлах или приложениях; проникнув в систему, они могут выполнять различные действия, например похищать конфиденциальные данные или перехватывать контроль над устройством."
+   },
+   "blockExplainWorm": {
+      "description": "Text explaining what a Worm is",
+      "message": "Черви также относятся к вредоносному ПО и во многом повторяют свойства вирусов, однако для распространения им не нужно прикрепляться к другим программам."
+   },
+   "blockGoBackButton": {
+      "description": "Button text to go back",
+      "message": "НАЗАД"
+   },
+   "blockItem": {
+      "description": "Menu item in the context menu for blocking an item in the current page",
+      "message": "Заблокировать этот объект"
+   },
+   "blockListEmpty": {
+      "description": "Text displayed when there are no items in the block list",
+      "message": "Здесь будут отображаться заблокированные ссылки."
+   },
+   "blockListTableHeader": {
+      "description": "Header for Block list table",
+      "message": "Список заблокированных объектов"
+   },
+   "blockNavItem": {
+      "description": "'Blocked items' Navigation Item",
+      "message": "Заблокированные объекты"
+   },
+   "blockOn1Site": {
+      "description": "Tooltip data for when user is looking at blocking an ad/malware for one site",
+      "message": "Блокировать на этом сайте"
+   },
+   "blockOnAll": {
+      "description": "Tooltip data for when user is looking at blocking an ad/malware for all sites",
+      "message": "Блокировать на всех сайтах"
+   },
+   "blockPageText": {
+      "description": "Text right before noting what page was blocked",
+      "message": "Заблокирована страница:"
+   },
+   "blockTypesSummaryLine1": {
+      "description": "Line one of the summary of types of blocks on the current website page",
+      "message": "Рекламные сети, средства отслеживания,"
+   },
+   "blockTypesSummaryLine2": {
+      "description": "Line two of the summary of types of blocks on the current website page",
+      "message": "вредоносное ПО и атаки онлайн-мошенников"
+   },
+   "blockWarning": {
+      "description": "Warning for users not to click past block page",
+      "message": "Настоятельно рекомендуем Вам не продолжать."
+   },
+   "blockWarningLine1": {
+      "description": "The tooltip warning text's first line",
+      "message": "В результате посещения этого веб-сайта Вы можете стать объектом кибератаки."
+   },
+   "blockWarningLine2": {
+      "description": "The tooltip warning text's second line",
+      "message": "Если Вы считаете, что выполнение этого действия безопасно, пожалуйста, выберите, одну из приведенных ниже опций. В противном случае нажмите «Назад», чтобы вернуться на предыдущую страницу."
+   },
+   "blockWarningLine3": {
+      "description": "The tooltip warning text's last line, right before the Malwarebytes support link",
+      "message": "Чтобы ознакомиться с дополнительной информацией, пожалуйста,"
+   },
+   "blockedByTitle": {
+      "message": "Заблокировано $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Browser Guard"
+         }
+      }
+   },
+   "blockedFor": {
+      "description": "text inbetween host blocked and reason why",
+      "message": "заблокирован из-за"
+   },
+   "blockedOn1Site": {
+      "description": "Tooltip data for when user is looking at a blocked ad/malware for one site",
+      "message": "Заблокировано на этом сайте"
+   },
+   "buttonDisableShellWarning": {
+      "description": "Button text to disable the shell warning for the current site",
+      "message": "Disable this warning for this site"
+   },
+   "buttonOptIn": {
+      "description": "Button text to opt in",
+      "message": "Разрешить"
+   },
+   "buttonOptOut": {
+      "description": "Button text to opt out",
+      "message": "Отклонить"
+   },
+   "cantEvaluate": {
+      "description": "Note for when we cannot block ads/trackers/malware on page",
+      "message": "К сожалению, мы не можем оценить страницу этого типа."
+   },
+   "currentWebsiteNavItem": {
+      "description": "'Current Website' Navigation Item",
+      "message": "Текущий веб-сайт"
+   },
+   "currentWebsiteProtectionHeader": {
+      "description": "Header for toggles on the various protections for the page",
+      "message": "Защита для этого веб-сайта"
+   },
+   "currentWebsiteSystemPage": {
+      "description": "Note if user is on a system page",
+      "message": "Системные страницы – это адреса, которые являются частью браузера или расширения; мы не блокируем содержимое этих страниц."
+   },
+   "currentWebsiteWarning": {
+      "description": "Warning to users to not allowlist this site",
+      "message": "Если добавить этот веб-сайт в белый список, Вы можете стать объектом кибератаки и подвергнуть опасности систему своего устройства."
+   },
+   "defaultBlockExplanation": {
+      "description": "Default text explaining why a block occured",
+      "message": "$mb$ заблокировала этот веб-сайт, поскольку на нем может присутствовать $type$.",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         },
+         "type": {
+            "content": "$1",
+            "example": "malware"
+         }
+      }
+   },
+   "doNotBlockAgainCheckbox": {
+      "description": "Checkbox text on block page to turn off Browser Guard blocks for detection type",
+      "message": "Не блокировать этот веб-сайт снова из-за $type$",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "malware"
+         }
+      }
+   },
+   "downloadBlockText": {
+      "description": "Text right before noting the download blocked",
+      "message": "Заблокирована загрузка:"
+   },
+   "downloadBlockText2": {
+      "description": "Text right before noting the download blocked",
+      "message": "Заблокирована загрузка с:"
+   },
+   "explainBlockHeader": {
+      "description": "Header for text explaining what a detection type is",
+      "message": "Что такое $type$?",
+      "placeholders": {
+         "type": {
+            "content": "$1",
+            "example": "malware"
+         }
+      }
+   },
+   "extensionPage": {
+      "description": "Shown as a title when the user is on an extension page",
+      "message": "Страница расширений"
+   },
+   "granularTrustText": {
+      "description": "Tooltip data for when user is looking at allowlisting an ad/malware for one site",
+      "message": "Доверять на этом сайте"
+   },
+   "granularTrustedText": {
+      "description": "Tooltip data for when user is looking at an allowlisted ad/malware for one site",
+      "message": "Программа доверяет объектам на этом сайте"
+   },
+   "heuristicAdBlock": {
+      "description": "Content ad blocked by heuristic in popular sites, facebook, youtube, etc",
+      "message": "Heuristic ad block"
+   },
+   "humanReadableSubTypeAlertLoop": {
+      "description": "When the sub detection type is alertLoop this is the text we show the user",
+      "message": "использование уязвимостей API предупреждений"
+   },
+   "humanReadableSubTypeAuthRequiredLoop": {
+      "description": "When the sub detection type is authRequiredLoop this is the text we show the user",
+      "message": "поведение злоумышленников, выдающих себя за представителей технической поддержки"
+   },
+   "humanReadableSubTypeCreateURLLoop": {
+      "description": "When the sub detection type is createURLLoop this is the text we show the user",
+      "message": "создание подозрительных URL-адресов"
+   },
+   "humanReadableSubTypeExtensionInstall": {
+      "description": "When the sub detection type is extensionInstall this is the text we show the user",
+      "message": "установка подозрительных расширений"
+   },
+   "humanReadableSubTypeFullScreenLoop": {
+      "description": "When the sub detection type is fullScreenLoop this is the text we show the user",
+      "message": "использование уязвимостей полноэкранного режима устройства"
+   },
+   "humanReadableSubTypeHistoryLoop": {
+      "description": "When the sub detection type is historyLoop this is the text we show the user",
+      "message": "блокирование кнопки перехода на предыдущую страницу в браузере"
+   },
+   "humanReadableSubTypeMalwarePattern": {
+      "description": "When the sub detection type is malware-pattern this is the text we show the user",
+      "message": "подозрительный паттерн"
+   },
+   "humanReadableSubTypeNotificationLoop": {
+      "description": "When the sub detection type is notificationLoop this is the text we show the user",
+      "message": "чрезмерное количество запросов уведомлений"
+   },
+   "humanReadableSubTypePrintLoop": {
+      "description": "When the sub detection type is printLoop this is the text we show the user",
+      "message": "подозрительное количество запросов печати"
+   },
+   "humanReadableSubTypeSuspiciousContent": {
+      "description": "When the sub detection type is suspiciousContent this is the text we show the user",
+      "message": "подозрительный контент"
+   },
+   "humanReadableSubTypeSuspiciousDownload": {
+      "description": "When the sub detection type is suspiciousDownload this is the text we show the user",
+      "message": "подозрительная загрузка"
+   },
+   "humanReadableSubTypeSuspiciousPage": {
+      "description": "When the sub detection type is suspiciousPage this is the text we show the user",
+      "message": "подозрительная активность"
+   },
+   "humanReadableSubTypeSuspiciousTLD": {
+      "description": "When the sub detection type is suspiciousTLD this is the text we show the user",
+      "message": "подозрительный домен верхнего уровня"
+   },
+   "learnMoreText": {
+      "description": "Text for link to learn more pages on Malwarebytes blog",
+      "message": "Узнать еще больше"
+   },
+   "letsGoButton": {
+      "message": "Перейти"
+   },
+   "loading": {
+      "description": "The word \"Loading\"",
+      "message": "Загрузка"
+   },
+   "nativeMessagingHeader": {
+      "description": "Header for pop up to get user to add native messaging permissions",
+      "message": "Вы уже установили Malwarebytes Premium?"
+   },
+   "nativeMessagingHeader2": {
+      "description": "Header on block page to get user to add native messaging permissions",
+      "message": "Скрывать повторяющиеся предупреждения"
+   },
+   "nativeMessagingMessage": {
+      "description": "Message body for pop up to get user to add native messaging permissions",
+      "message": "Разрешить $name$ управлять предупреждениями о заблокированных веб-сайтах в premium-версии.",
+      "placeholders": {
+         "name": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "nativeMessagingMessage2": {
+      "description": "Message body on block page to get user to add native messaging permissions",
+      "message": "Скрывает предупреждения о заблокированных веб-сайтах, выдаваемые программой Malwarebytes Premium пользователям, активировавшим как $name$, так и premium-версию.",
+      "placeholders": {
+         "name": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "newTab": {
+      "description": "Shown as a title when the user is on a new tab",
+      "message": "Пустая страница (веб-сайт не указан)"
+   },
+   "noBlocks": {
+      "description": "Note for when there is nothing to block",
+      "message": "Содержимое, подлежащее блокировке, отсутствует."
+   },
+   "privacyPolicyText": {
+      "message": "Политика конфиденциальности"
+   },
+   "protectionPaused": {
+      "description": "Note for when protection is paused",
+      "message": "Действие защиты приостановлено."
+   },
+   "reputationBlockExplanation": {
+      "description": "Text explaining why a reputation block could occur",
+      "message": "$mb$ блокирует страницы, которые принадлежат веб-сайтам с относительно невысоким трафиком и на которых зарегистрирована вредоносная активность.  Если Вы доверяете этому веб-сайту, пожалуйста, нажмите «ПЕРЕЙТИ НА САЙТ».  В противном случае нажмите «НАЗАД».",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "safariProtectionStatusOff": {
+      "description": "browsing protection for Safari is off",
+      "message": "Ваша онлайн-активность НЕ защищена"
+   },
+   "safariProtectionStatusOn": {
+      "description": "browsing protection for Safari is on",
+      "message": "Ваша онлайн-активность защищена"
+   },
+   "settingsAdsDescription": {
+      "description": "Description for toggling ad/tracker protection",
+      "message": "Блокирует стороннюю рекламу и средства отслеживания Вашей онлайн-активности."
+   },
+   "settingsAllProtectionDescription": {
+      "description": "Description for toggling all protection settings on or off",
+      "message": "Включить все настройки защиты."
+   },
+   "settingsAllProtectionLabel": {
+      "description": "Label for toggling all protection settings on or off",
+      "message": "Все настройки защиты"
+   },
+   "settingsDupWarningsDescription": {
+      "description": "Description for MB4 Integration Setting",
+      "message": "Скрывает предупреждения о заблокированных веб-сайтах, выдаваемые программой Malwarebytes Premium пользователям, активировавшим как $mb$, так и premium-версию.",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "settingsDupWarningsHeader": {
+      "description": "Header for MB4 Integration Setting",
+      "message": "Скрывать повторяющиеся предупреждения"
+   },
+   "settingsGtldDescription": {
+      "description": "Description for toggling gTLD domain protection",
+      "message": "Блокирует подозрительные домены верхнего уровня, которые часто используются мошенническими или фишинговыми веб-сайтами."
+   },
+   "settingsMalwareDescription": {
+      "description": "Description for toggling malware protection",
+      "message": "Блокирует вредоносные программы или вредоносный код."
+   },
+   "settingsNavItem": {
+      "description": "'Settings' Navigation Item",
+      "message": "Параметры"
+   },
+   "settingsPupDescription": {
+      "description": "Description for toggling PUP protection",
+      "message": "Блокирует загрузку потенциально нежелательных программ, в том числе панелей инструментов и всплывающих окон."
+   },
+   "settingsScamsDescription": {
+      "description": "Description for toggling scams protection",
+      "message": "Нейтрализует атаки онлайн-мошенников, в том числе действия злоумышленников, выдающих себя за представителей технической поддержки, а также вирусы, блокирующие браузер, и фишинговые атаки."
+   },
+   "settingsSummaryText": {
+      "description": "Settings Summary text, displayed above the toggles",
+      "message": "Эти настройки защиты применяются ко всем веб-сайтам. Вы можете задать настройки для отдельных веб-сайтов на вкладке «Текущий веб-сайт»."
+   },
+   "settingsToggleBlockCountDescription": {
+      "description": "Description for toggling the block count",
+      "message": "Включить счетчик блокировок на значке расширения."
+   },
+   "settingsToggleBlockCountLabel": {
+      "description": "Label for toggling the block count",
+      "message": "Показать счетчик блокировок"
+   },
+   "settingsToggleSkimmerDescription": {
+      "description": "Description for toggling advanced skimmer protection",
+      "message": "Protect your card number on checkout pages."
+   },
+   "settingsToggleSkimmerLabel": {
+      "description": "Label for toggling advanced skimmer protection",
+      "message": "Advanced Skimmer Protection"
+   },
+   "shellInjectionWarningHeader": {
+      "description": "Header on the pop up that warns the user of possible shell injections",
+      "message": "Hey, did you just copy something?"
+   },
+   "shellInjectionWarningMessage": {
+      "description": "Body of the popup that warns the user of possible shell injections",
+      "message": "Heads up, your clipboard was just accessed from this website. Be sure you trust the owner before pasting this someplace you don’t want it. Like a terminal or an email to your boss."
+   },
+   "stats30Days": {
+      "description": "Dropdown selector for stats page to select stats for 30 days",
+      "message": "30 дней"
+   },
+   "statsIsBlocked": {
+      "description": "Notation for specific item blocked e.g \"Ads / Trackers Blocked\"",
+      "message": "Заблокировано"
+   },
+   "statsItemsBlocked": {
+      "description": "Notation for items blocked",
+      "message": "Заблокированные объекты"
+   },
+   "statsNavItem": {
+      "description": "'Statistics' Navigation Item",
+      "message": "Статистика"
+   },
+   "statsThisWeek": {
+      "description": "Dropdown selector for stats page to select stats for this week",
+      "message": "Эта неделя"
+   },
+   "statsToday": {
+      "description": "Dropdown selector for stats page to select stats for today",
+      "message": "Сегодня"
+   },
+   "statsTwoWeeks": {
+      "description": "Dropdown selector for stats page to select stats for two weeks",
+      "message": "Две недели"
+   },
+   "supportCheckErrorLine1": {
+      "description": "Line 1 of an error checking for DB updates",
+      "message": "Возникла ошибка – пожалуйста, повторите попытку"
+   },
+   "supportCheckErrorLine2": {
+      "description": "Line 2 of an error checking for DB updates",
+      "message": "или обратитесь в нашу службу поддержки"
+   },
+   "supportCheckForUpdates": {
+      "description": "Button text to check for updates",
+      "message": "Проверить обновления"
+   },
+   "supportCheckForUpdatesIP": {
+      "description": "Button text when checking for updates",
+      "message": "Проверка обновлений"
+   },
+   "supportCopyrightText": {
+      "message": "$mb$. Все права сохранены.",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportDbComplete": {
+      "description": "Button text when database update is complete",
+      "message": "Версия $mb$ актуальна",
+      "placeholders": {
+         "mb": {
+            "content": "Browser Guard"
+         }
+      }
+   },
+   "supportDbUpdating": {
+      "description": "Button text when database is actively updating",
+      "message": "Выполняется обновление"
+   },
+   "supportDownloadLogs": {
+      "description": "Button text to download user logs",
+      "message": "Загрузить журналы отладки"
+   },
+   "supportFactoryReset": {
+      "description": "Button text to trigger a factory reset",
+      "message": "Factory Reset"
+   },
+   "supportFactoryResetMessage": {
+      "description": "Factory reset warning prompt message",
+      "message": "Are you sure you want to reset your Browser Guard installation?"
+   },
+   "supportFactoryResetNo": {
+      "description": "Button to decline factory reset prompt",
+      "message": "No"
+   },
+   "supportFactoryResetYes": {
+      "description": "Button to accept factory reset prompt",
+      "message": "Yes"
+   },
+   "supportLicenseLinkText": {
+      "description": "End User License Agreement link text",
+      "message": "Лицензионное соглашение с конечным пользователем"
+   },
+   "supportLinkText": {
+      "description": "Link text to Malwarebytes Support page",
+      "message": "обратитесь в службу поддержки $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportMbLabsExplain": {
+      "description": "Text explaining Malwarebytes Labs website link",
+      "message": "Познавательные статьи и последние новости из мира кибербезопасности"
+   },
+   "supportMbLabsLink": {
+      "description": "Link text to Malwarebytes Labs",
+      "message": "$mb$ Labs",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportMbLink": {
+      "description": "Link text to Malwarebytes website",
+      "message": "Веб-сайт $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportMbLinkExplain": {
+      "description": "Text explaining Malwarebytes website link",
+      "message": "Все ресурсы $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportMbSupportExplain": {
+      "description": "Text explaining Malwarebytes support website link",
+      "message": "Здесь Вы найдете ответы на возможные вопросы"
+   },
+   "supportMbSupportLink": {
+      "description": "Link text to Malwarebytes support",
+      "message": "Служба поддержки $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportNavItem": {
+      "description": "'Support' Navigation Item",
+      "message": "Поддержка"
+   },
+   "supportResourcesTitle": {
+      "description": "Title for Support resources links",
+      "message": "Ресурсы поддержки"
+   },
+   "supportUserGuideExplain": {
+      "description": "Text explaining product user guide website link",
+      "message": "Эти источники помогут Вам воспользоваться всеми преимуществами $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "supportUserGuideLink": {
+      "description": "Link to Malwarebytes user guides",
+      "message": "Руководства пользователя"
+   },
+   "supportVersionInfo": {
+      "description": "Header for area showing version information",
+      "message": "Информация о версии"
+   },
+   "supportVersionInfoSubheader": {
+      "description": "Sub-Header for area showing version information",
+      "message": "Версия $mb$",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "suspiciousContentExplanation": {
+      "description": "Text explaining why a suspicious content (download) block could occur",
+      "message": "$mb$ проверяет загрузки, запущенные в браузере, и может блокировать/удалять объекты, если они выглядят подозрительно. Если Вы доверяете этому контенту/веб-сайту и хотите выполнить операцию, пожалуйста, нажмите «Продолжить».",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "suspiciousDownloadExplanation": {
+      "description": "Text explaining why a suspicious download block could occur",
+      "message": "$mb$ блокирует загрузки, поступающие с веб-сайтов, трафик которых относительно невысок, или содержащие потенциально вредоносный контент. Это необходимо для того, чтобы защитить Вас от $type$. Тем не менее, если Вы доверяете контенту на этом веб-сайте и хотите выполнить операцию, пожалуйста, нажмите «Продолжить».",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         },
+         "type": {
+            "content": "$1",
+            "example": "scams"
+         }
+      }
+   },
+   "suspiciousTldExplanation": {
+      "description": "Text explaining why a suspicious TLD block could occur",
+      "message": "Программа $mb$ заблокировала эту страницу, поскольку она использует подозрительный домен верхнего уровня. Подобные домены нередко указывают на мошеннические или фишинговые веб-сайты, однако могут также использоваться и законными ресурсами. Если Вы доверяете этому веб-сайту, пожалуйста, нажмите «ПЕРЕЙТИ НА САЙТ». В противном случае нажмите «НАЗАД».",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "systemPage": {
+      "description": "Shown as a title when the user is on a system page",
+      "message": "Системная страница"
+   },
+   "tagline": {
+      "message": "Готовы присоединиться?"
+   },
+   "telemOptInLabel": {
+      "description": "Directly visible text to convince users to opt in to telemetry",
+      "message": "Делиться с $mb$ анонимными данными об устройствах и обнаруженных объектах",
+      "placeholders": {
+         "mb": {
+            "content": "Malwarebytes"
+         }
+      }
+   },
+   "telemOptInTooltip": {
+      "description": "Tooltip for when user hovers over visible opt in text",
+      "message": "Мы собираем анонимные сведения об обнаруженных и заблокированных угрозах. Полученная информация помогает нам оптимизировать пользовательский опыт и совершенствовать наши продукты, чтобы они могли еще более эффективно бороться с вредоносным ПО."
+   },
+   "toggleOff": {
+      "description": "It's off",
+      "message": "ВЫКЛ."
+   },
+   "toggleOn": {
+      "description": "It's on",
+      "message": "ВКЛ."
+   },
+   "total": {
+      "description": "The word \"Total\"",
+      "message": "Всего"
+   },
+   "unblock": {
+      "description": "Unblock action",
+      "message": "Разблокировать"
+   },
+   "urlColumnAllowList": {
+      "description": "Column Header for Allow list URL/IP Addresses",
+      "message": "URL-адрес / IP-адрес"
+   },
+   "warning": {
+      "message": "Внимание!"
+   },
+   "websiteBlockHeader": {
+      "description": "Header at top right before indicating block type",
+      "message": "Веб-сайт заблокирован: "
+   },
+   "websiteBlockText": {
+      "description": "Text right before noting what site was blocked",
+      "message": "Заблокирован веб-сайт:"
+   },
+   "webstorePage": {
+      "description": "Shown as a title when the user is on the Chrome Webstore",
+      "message": "Интернет-магазин Chrome"
+   },
+   "welcomeChrome": {
+      "description": "Tells user to keep Browser Guard extension icon pinned to address bar",
+      "message": "Закрепите $name$ в адресной строке",
+      "placeholders": {
+         "name": {
+            "content": "Malwarebytes Browser Guard"
+         }
+      }
+   },
+   "welcomeChromeInfo": {
+      "description": "More info on pinning the extension",
+      "message": "(нажмите на значок пазла, а затем нажмите на значок булавки)"
+   },
+   "welcomeDefault": {
+      "description": "Default Welcome message",
+      "message": "Нажмите на значок Malwarebytes в адресной строке, чтобы добровольно делиться с нами данными, которые будут помогать нам в создании интернет-среды, свободной от вредоносного ПО."
+   },
+   "welcomeDone": {
+      "description": "Final line telling user setup is done",
+      "message": "Готово! Ваша работа в Интернете теперь станет быстрее и безопаснее."
+   },
+   "welcomeHeader": {
+      "description": "Welcome header on welcome pages",
+      "message": "Добро пожаловать!"
+   },
+   "welcomeHeaderAction": {
+      "description": "Welcome header on welcome pages with user action (telemetry opt-in, pin Browser Guard etc.)",
+      "message": "Почти готово!"
+   },
+   "welcomeIconInfo": {
+      "description": "Info on how to use the Malwarebytes icon",
+      "message": "Вы можете в любое время нажать на значок Malwarebytes, чтобы включить или выключить защиту."
+   },
+   "welcomeTitle": {
+      "description": "Welcome page title",
+      "message": "Добро пожаловать в $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Malwarebytes Browser Guard"
+         }
+      }
+   }
+}
